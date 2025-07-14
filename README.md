@@ -79,6 +79,8 @@ To build this structure, we engineered:
 
 This feature design allows the model to adapt across regimes by integrating both behavioral and structural signals, improving forecast accuracy under changing market conditions.
 
+! [HAR Image](HAR_Features_Engineered.png)
+
 ---
 
 ## Methodology Overview
