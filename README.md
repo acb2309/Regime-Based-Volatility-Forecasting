@@ -10,6 +10,28 @@ Ultimately, this work enhances the robustness and reliability of volatility fore
 
 # Data Collection 
 
+Our dataset consists of high-frequency intraday price data for the S\&P 500 index (SPX), spanning eleven years from June 2, 2014 to April 29, 2025, sourced via Bloomberg Terminal. Using \hbox{5-minute} closing prices, we calculate intraday log-returns as:
+
+{\setlength{\abovedisplayskip}{8pt}
+ \setlength{\belowdisplayskip}{8pt}
+\begin{equation}
+    r_{t,i} = \ln\left(\frac{P_{t,i}}{P_{t,i-1}}\right)
+    \label{eq:returns}
+\end{equation}
+}
+
+where $P_{t,i}$ is the price at the $i^\text{th}$ 5-minute interval on day $t$. These returns are then aggregated to compute daily realized volatility (RV), adjusted to account for shorter trading days:
+
+{\setlength{\abovedisplayskip}{8pt}
+ \setlength{\belowdisplayskip}{8pt}
+\begin{equation}
+    RV_t = \sqrt{\frac{N}{n} \sum_{i=1}^{n} r_{t,i}^2}
+    \label{eq:RVt}
+\end{equation}
+}
+
+Here, $n$ is the number of intraday returns observed on day $t$ (which may vary due to holidays), and $N$ is the standard number of returns in a full trading day---78 for intraday data only, or 79 including overnight returns. This scaling ensures comparability of RV across days with varying lengths.
+
 # Methodology 
 
 The original HAR model, introduced by Corsi \cite{corsi} in 2009, was designed to capture realized volatility (RV) behavior across multiple time scales (daily, weekly, and monthly) reflecting the activity of different types of investors:
