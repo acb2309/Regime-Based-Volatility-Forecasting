@@ -6,6 +6,22 @@
 
 ---
 
+## About the Project
+
+This repository contains the results, code, poster, and supporting materials for this research project on forecasting S&P 500 volatility using regime-switching methods. Here, we include more detailed results for comparison, and cover methods such as recursive forecasting which are not detailed in our poster. The project integrates techniques from financial econometrics and machine learning to improve volatility prediction accuracy by accounting for structural changes in market dynamics.
+
+We explore a hybrid modeling framework that combines:
+
+- Regime identification using methods like Hidden Markov Models (HMM), spectral clustering, and nonparametric change point detection (Mood test)
+- Volatility modeling via HAR (Heterogeneous Autoregressive) models
+- Forecasting enhancement with LSTM and Transformer neural networks
+- Supervised learning using XGBoost to predict regime labels
+- Clustering techniques to group similar volatility patterns
+
+By incorporating these dynamic regime-based approaches, our models aim to better capture the nonlinear, heteroskedastic structure of financial time series data.
+
+---
+
 ## Motivations
 
 Market volatility forecasts are essential for portfolio management, risk control, derivatives pricing, and regulatory decisions. Traditional models like the Heterogeneous Autoregressive (HAR) model use past volatility over different time horizons (daily, weekly, monthly) to predict future volatility, assuming stable market dynamics with fixed parameters.
