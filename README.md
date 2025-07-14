@@ -81,6 +81,8 @@ This feature design allows the model to adapt across regimes by integrating both
 
 ![HAR Graph](graphs/HAR_Features_Engineered.png)
 
+<p align="center"><strong>Figure 1:</strong> Feature-engineered standard HAR model over the eleven-year period.</p>
+
 ---
 
 ## Methodology Overview
