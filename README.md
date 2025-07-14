@@ -67,14 +67,22 @@ This feature design allows the model to adapt across regimes by integrating both
 
 ## Methodology Overview
 
+Traditional regime switching models use techniques such as Markov regime-switching, implementing a Hidden Markov Model (HMM) to capture volatility behavior as the market evolves through differing regimes. Our models build off of existing frameworks and introduce new regime-switching techniques.
+
 1. **Soft Markov Regime Switching**  
    Gaussian HMM on smoothed volatility → soft regime probabilities → weighted WLS/Ridge in EM loop → forward-propagated regime weights for smooth forecasts.
+
+We extend HAR by fitting a Gaussian HMM to smoothed volatility and estimating soft regime probabilities. These probabilities are used to weight regime-specific WLS or Ridge regressions within an Expectation-Maximization (EM) loop. Forecasts are blended using forward-propagated regime weights for smooth, robust transitions.
 
 2. **Distributional Clustering with Spectral-XGBoost**  
    Mood test + Wasserstein clustering → HAR models per cluster → XGBoost for test-time regime prediction.
 
-3. **Coefficient-Based Soft Clustering**  
+We detect regime shifts using the Mood test and cluster segments via Wasserstein distances and spectral clustering. Each cluster has an HAR model, with XGBoost assigning regimes at test time. This enables structural break adaptation based on feature distributions.
+
+4. **Coefficient-Based Soft Clustering**  
    HAR coefficients → PCA + BGMM → soft regime weights → WLS per regime → XGBoost for smooth forecasts.
+
+We extract HAR coefficients from mood-based segments and cluster them using PCA and BGMM to obtain soft regime weights. These weights inform WLS regressions per regime. XGBoost predicts regime probabilities, allowing for smooth, probabilistic forecasts.
 
 ---
 
@@ -86,9 +94,10 @@ Model performance is evaluated across Pre-COVID, COVID, and Post-COVID periods u
 
 ## Significance
 
-Regime-aware HAR extensions consistently improve predictive accuracy over standard HAR. Coefficient-based clustering performs best pre/post-COVID, while distributional clustering excels during COVID. Inclusion of VIX enhances sensitivity to sentiment.
+Our empirical results demonstrate that regime-aware HAR extensions consistently yield lower forecasting errors than the standard HAR model, confirming the value of incorporating time-varying dynamics. Specifically, coefficient-based soft clustering effectively captures gradual shifts and identifies structural breaks in volatility distributions, achieving superior performance before and after the COVID time period. Meanwhile, distributional clustering better captures volatility behavior during the highly volatile COVID-19 time period. Inclusion of the VIX as a forward-looking feature enhances model responsiveness to shifts in market sentiment, thereby refining predictive accuracy.
 
-These results reinforce volatility’s regime-dependence and motivate future exploration of LSTMs or ensemble hybrid methods.
+These outcomes illustrate that volatility dynamics exhibit regime-dependent statistical properties, and that flexible models adapting regime-specific parameters provide a meaningful advantage. Future research could explore hybrid frameworks that integrate clustering and Markov switching, as well as advanced sequential models like LSTMs to capture more complex temporal dependencies.
+
 
 ---
 
