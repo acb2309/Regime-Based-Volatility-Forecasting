@@ -7,3 +7,13 @@ However, financial markets often move through distinct regimes, such as calm, cr
 Our research addresses these challenges by developing regime-aware forecasting frameworks that detect structural breaks and adapt to changing market conditions. By combining historical realized volatility with forward-looking indicators like the Implied Volatility Index (VIX), our models adjust dynamically to different volatility regimes, improving predictive performance.
 
 Ultimately, this work enhances the robustness and reliability of volatility forecasts, supporting better-informed real-time decisions in risk management and hedging.
+
+# Data Collection 
+
+# Methodology 
+
+# Results
+
+# Discussion 
+
+# Conclusion
