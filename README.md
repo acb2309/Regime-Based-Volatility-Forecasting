@@ -34,8 +34,6 @@ Ultimately, this work enhances the robustness and reliability of volatility fore
 
 ---
 
-Hello
-
 ## Background
 
 The original HAR model, introduced by Corsi (2009), was designed to capture realized volatility (RV) behavior across multiple time scales (daily, weekly, and monthly) reflecting the activity of different types of investors:
@@ -142,11 +140,20 @@ Model performance is evaluated across Pre-COVID, COVID, and Post-COVID periods u
 
 <p align="center">
   <img src="graphs/covid_HAR.png" alt="HAR" width="45%" style="vertical-align:top; margin-right:10px;">
-  <img src="graphs/covid_distributional_clustering.png" alt="Distributional Clustering" width="45%" style="vertical-align:top;">
+  <img src="graphs/covid_markov_soft_em.png" alt="Markov Soft EM" width="45%" style="vertical-align:top;">
 </p>
 
 <p align="center">
-  <em>Figure 1: HAR (left) &nbsp;&nbsp;&nbsp;&nbsp; Figure 2: Distributional Clustering (right)</em>
+  <em>Figure 5: HAR (left) &nbsp;&nbsp;&nbsp;&nbsp; Figure 6: Markov Soft EM (right)</em>
+</p>
+
+<p align="center">
+  <img src="graphs/covid_distributional_clustering.png" alt="Distributional Clustering" width="45%" style="vertical-align:top; margin-right:10px;">
+  <img src="graphs/covid_coefficient_clustering.png" alt="Coefficient Clustering" width="45%" style="vertical-align:top;">
+</p>
+
+<p align="center">
+  <em>Figure 7: Distributional Clustering (left) &nbsp;&nbsp;&nbsp;&nbsp; Figure 8: Coefficient Clustering (right)</em>
 </p>
 
 ### Post-COVID Results 
@@ -167,16 +174,6 @@ Model performance is evaluated across Pre-COVID, COVID, and Post-COVID periods u
   <em>Figure 9: HAR (left) &nbsp;&nbsp;&nbsp;&nbsp; Figure 10: Markov Soft EM (right)</em>
 </p>
 
-<p align="center">
-   <img src="graphs/post_covid_distributional_clustering.png" alt="Distributional Clustering" width="45%" style="vertical-align:top;">
-   <img src="graphs/post_covid_coefficient_clustering.png" alt="Coefficient Clustering" width="45%" style="vertical-align:top;">
-</p>
-
-<p align="center">
-  <em>Figure 11: Distributional Clustering (left) &nbsp;&nbsp;&nbsp;&nbsp; Figure 12: Coefficient Clustering (right)</em>
-</p>
-   
----
 
 ## Significance
 
