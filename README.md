@@ -134,7 +134,7 @@ Model performance is evaluated across Pre-COVID, COVID, and Post-COVID periods u
 | Coefficient Clustering   |  38.63  |   39.54  |    2     |
 
 
-| ![HAR](graphs/covid_HAR.png)     | ![Coefficient Clustering](graphs/covid_distributional_clustering.png)      |
+| ![HAR](graphs/covid_HAR.png)     | ![Coefficient Clustering](graphs/covid_distributional_clustering.png)  |
 |----------------------------------|------------------------------------------------------------------------|
 |        *Figure 1: HAR*           |                    *Figure 2: Distributional Clustering*               |
 
