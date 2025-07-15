@@ -110,7 +110,7 @@ We extract HAR coefficients from mood-based segments and cluster them using PCA 
 
 Model performance is evaluated across Pre-COVID, COVID, and Post-COVID periods using MAPE and MSE metrics. Regime-aware models consistently outperform the baseline HAR model.
 
-# Pre-COVID Results 
+### Pre-COVID Results 
 |      Model               |   MAPE  |   MSE  | Regime # | 
 |--------------------------|---------|--------|----------|
 | HAR                      |  27.09  |  3.40  |    1     |
@@ -118,7 +118,7 @@ Model performance is evaluated across Pre-COVID, COVID, and Post-COVID periods u
 | Distributional Clustering|  27.36  |  3.87  |    2     |
 | Coefficient Clustering   |  24.26  |  3.00  |    3     |
 
-# COVID Results
+### COVID Results
 |      Model               |   MAPE  |    MSE   | Regime # | 
 |--------------------------|---------|----------|----------|
 | HAR                      |  30.13  |   35.35  |    1     |
@@ -126,7 +126,7 @@ Model performance is evaluated across Pre-COVID, COVID, and Post-COVID periods u
 | Distributional Clustering|  27.36  |   33.89  |    2     |
 | Coefficient Clustering   |  24.26  |   39.54  |    2     |
 
-# Post-COVID Results 
+### Post-COVID Results 
 |      Model               |   MAPE  |   MSE  | Regime # | 
 |--------------------------|---------|--------|----------|
 | HAR                      |  23.31  |  8.63  |    1     |
