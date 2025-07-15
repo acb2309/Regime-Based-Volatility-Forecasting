@@ -119,8 +119,8 @@ Model performance is evaluated across Pre-COVID, COVID, and Post-COVID periods u
 | Coefficient Clustering   |  24.26  |  3.00  |    3     |
 
 <p align="center">
-  <img src="graphs/pre_covid_HAR.png" alt="HAR" width="48%" style="vertical-align:top; margin-right:10px;">
-  <img src="graphs/pre_covid_coefficient_clustering.png" alt="Coefficient Clustering" width="48%" style="vertical-align:top;">
+  <img src="graphs/pre_covid_HAR.png" alt="HAR" width="45%" style="vertical-align:top; margin-right:10px;">
+  <img src="graphs/pre_covid_coefficient_clustering.png" alt="Coefficient Clustering" width="45%" style="vertical-align:top;">
 </p>
 
 <p align="center">
@@ -139,8 +139,8 @@ Model performance is evaluated across Pre-COVID, COVID, and Post-COVID periods u
 
 
 <p align="center">
-  <img src="graphs/covid_HAR.png" alt="HAR" width="48%" style="vertical-align:top; margin-right:10px;">
-  <img src="graphs/covid_coefficient_clustering.png" alt="Coefficient Clustering" width="48%" style="vertical-align:top;">
+  <img src="graphs/covid_HAR.png" alt="HAR" width="45%" style="vertical-align:top; margin-right:10px;">
+  <img src="graphs/covid_coefficient_clustering.png" alt="Coefficient Clustering" width="45%" style="vertical-align:top;">
 </p>
 
 <p align="center">
