@@ -34,6 +34,8 @@ Ultimately, this work enhances the robustness and reliability of volatility fore
 
 ---
 
+Hello
+
 ## Background
 
 The original HAR model, introduced by Corsi (2009), was designed to capture realized volatility (RV) behavior across multiple time scales (daily, weekly, and monthly) reflecting the activity of different types of investors:
