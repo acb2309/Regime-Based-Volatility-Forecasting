@@ -124,7 +124,7 @@ Model performance is evaluated across Pre-COVID, COVID, and Post-COVID periods u
 </p>
 
 <p align="center">
-  <em>Figure 5: HAR (left) &nbsp;&nbsp;&nbsp;&nbsp; Figure 6: Markov Soft EM (right)</em>
+  <em>Figure 2: HAR (left) &nbsp;&nbsp;&nbsp;&nbsp; Figure 3: Markov Soft EM (right)</em>
 </p>
 
 <p align="center">
@@ -133,7 +133,7 @@ Model performance is evaluated across Pre-COVID, COVID, and Post-COVID periods u
 </p>
 
 <p align="center">
-  <em>Figure 7: Distributional Clustering (left) &nbsp;&nbsp;&nbsp;&nbsp; Figure 8: Coefficient Clustering (right)</em>
+  <em>Figure 4: Distributional Clustering (left) &nbsp;&nbsp;&nbsp;&nbsp; Figure 5: Coefficient Clustering (right)</em>
 </p>
 
 
@@ -153,7 +153,7 @@ Model performance is evaluated across Pre-COVID, COVID, and Post-COVID periods u
 </p>
 
 <p align="center">
-  <em>Figure 5: HAR (left) &nbsp;&nbsp;&nbsp;&nbsp; Figure 6: Markov Soft EM (right)</em>
+  <em>Figure 6: HAR (left) &nbsp;&nbsp;&nbsp;&nbsp; Figure 7: Markov Soft EM (right)</em>
 </p>
 
 <p align="center">
@@ -162,7 +162,7 @@ Model performance is evaluated across Pre-COVID, COVID, and Post-COVID periods u
 </p>
 
 <p align="center">
-  <em>Figure 7: Distributional Clustering (left) &nbsp;&nbsp;&nbsp;&nbsp; Figure 8: Coefficient Clustering (right)</em>
+  <em>Figure 8: Distributional Clustering (left) &nbsp;&nbsp;&nbsp;&nbsp; Figure 9: Coefficient Clustering (right)</em>
 </p>
 
 ### Post-COVID Results 
@@ -180,7 +180,7 @@ Model performance is evaluated across Pre-COVID, COVID, and Post-COVID periods u
 </p>
 
 <p align="center">
-  <em>Figure 9: HAR (left) &nbsp;&nbsp;&nbsp;&nbsp; Figure 10: Markov Soft EM (right)</em>
+  <em>Figure 10: HAR (left) &nbsp;&nbsp;&nbsp;&nbsp; Figure 11: Markov Soft EM (right)</em>
 </p>
 
 <p align="center">
@@ -189,7 +189,7 @@ Model performance is evaluated across Pre-COVID, COVID, and Post-COVID periods u
 </p>
 
 <p align="center">
-  <em>Figure 11: Distributional Clustering (left) &nbsp;&nbsp;&nbsp;&nbsp; Figure 12: Coefficient Clustering (right)</em>
+  <em>Figure 12: Distributional Clustering (left) &nbsp;&nbsp;&nbsp;&nbsp; Figure 13: Coefficient Clustering (right)</em>
 </p>
 
 
