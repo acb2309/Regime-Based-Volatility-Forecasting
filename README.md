@@ -120,11 +120,20 @@ Model performance is evaluated across Pre-COVID, COVID, and Post-COVID periods u
 
 <p align="center">
   <img src="graphs/pre_covid_HAR.png" alt="HAR" width="45%" style="vertical-align:top; margin-right:10px;">
+  <img src="graphs/pre_covid_markov_soft_em.png" alt="Markov Soft EM" width="45%" style="vertical-align:top;">
+</p>
+
+<p align="center">
+  <em>Figure 5: HAR (left) &nbsp;&nbsp;&nbsp;&nbsp; Figure 6: Markov Soft EM (right)</em>
+</p>
+
+<p align="center">
+  <img src="graphs/pre_covid_distributional_clustering.png" alt="Distributional Clustering" width="45%" style="vertical-align:top; margin-right:10px;">
   <img src="graphs/pre_covid_coefficient_clustering.png" alt="Coefficient Clustering" width="45%" style="vertical-align:top;">
 </p>
 
 <p align="center">
-  <em>Figure 1: HAR (left) &nbsp;&nbsp;&nbsp;&nbsp; Figure 2: Coefficient Clustering (right)</em>
+  <em>Figure 7: Distributional Clustering (left) &nbsp;&nbsp;&nbsp;&nbsp; Figure 8: Coefficient Clustering (right)</em>
 </p>
 
 
