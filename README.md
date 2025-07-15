@@ -118,10 +118,19 @@ Model performance is evaluated across Pre-COVID, COVID, and Post-COVID periods u
 | Distributional Clustering|  27.36  |  3.87  |    2     |
 | Coefficient Clustering   |  24.26  |  3.00  |    3     |
 
+<p align="center">
+  <img src="graphs/pre_covid_HAR.png" alt="HAR" width="45%" style="vertical-align:top; margin-right:10px;">
+  <img src="graphs/pre_covid_coefficient_clustering.png" alt="Coefficient Clustering" width="45%" style="vertical-align:top;">
+</p>
+
+<p align="center">
+  <em>Figure 1: HAR (left) &nbsp;&nbsp;&nbsp;&nbsp; Figure 2: Coefficient Clustering (right)</em>
+</p>
 
 | ![HAR](graphs/pre_covid_HAR.png) | ![Coefficient Clustering](graphs/pre_covid_coefficient_clustering.png) |
 |----------------------------------|------------------------------------------------------------------------|
 |        *Figure 1: HAR*           |                      *Figure 2: Coefficient Clustering*                |
+
 
 
 
@@ -134,9 +143,9 @@ Model performance is evaluated across Pre-COVID, COVID, and Post-COVID periods u
 | Coefficient Clustering   |  38.63  |   39.54  |    2     |
 
 
-| ![HAR](graphs/covid_HAR.png)                            | ![Coefficient Clustering](graphs/covid_distributional_clustering.png)  |
-|---------------------------------------------------------|------------------------------------------------------------------------|
-|        *Figure 1: HAR*                                  |                    *Figure 2: Distributional Clustering*               |
+| ![HAR](graphs/covid_HAR.png) | ![Coefficient Clustering](graphs/covid_distributional_clustering.png)  |
+|------------------------------|------------------------------------------------------------------------|
+|        *Figure 1: HAR*       |                    *Figure 2: Distributional Clustering*               |
 
 ### Post-COVID Results 
 |      Model               |   MAPE  |   MSE  | Regime # | 
