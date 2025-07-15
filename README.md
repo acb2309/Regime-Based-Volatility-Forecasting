@@ -118,6 +118,13 @@ Model performance is evaluated across Pre-COVID, COVID, and Post-COVID periods u
 | Distributional Clustering|  27.36  |  3.87  |    2     |
 | Coefficient Clustering   |  24.26  |  3.00  |    3     |
 
+
+| ![HAR](graphs/pre_covid_HAR.png) | ![Coefficient Clustering](graphs/pre_covid_coefficient_clustering.png) |
+|----------------------------------|------------------------------------------------------------------------|
+|        *Figure 1: HAR *          |                      *Figure 2: Coefficient Clustering*                |
+
+
+
 ### COVID Results
 |      Model               |   MAPE  |    MSE   | Regime # | 
 |--------------------------|---------|----------|----------|
