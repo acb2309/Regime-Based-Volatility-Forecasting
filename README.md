@@ -129,9 +129,14 @@ Model performance is evaluated across Pre-COVID, COVID, and Post-COVID periods u
 |      Model               |   MAPE  |    MSE   | Regime # | 
 |--------------------------|---------|----------|----------|
 | HAR                      |  30.13  |   35.35  |    1     |
-| Markov Soft EM           |  24.33  |   36.22  |    2     |
-| Distributional Clustering|  27.36  |   33.89  |    2     |
-| Coefficient Clustering   |  24.26  |   39.54  |    2     |
+| Markov Soft EM           |  31.93  |   36.22  |    2     |
+| Distributional Clustering|  27.27  |   33.89  |    2     |
+| Coefficient Clustering   |  38.63  |   39.54  |    2     |
+
+
+| ![HAR](graphs/covid_HAR.png)     | ![Coefficient Clustering](graphs/covid_distributional_clustering.png)      |
+|----------------------------------|------------------------------------------------------------------------|
+|        *Figure 1: HAR*           |                    *Figure 2: Distributional Clustering*               |
 
 ### Post-COVID Results 
 |      Model               |   MAPE  |   MSE  | Regime # | 
