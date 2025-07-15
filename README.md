@@ -121,7 +121,7 @@ Model performance is evaluated across Pre-COVID, COVID, and Post-COVID periods u
 
 | ![HAR](graphs/pre_covid_HAR.png) | ![Coefficient Clustering](graphs/pre_covid_coefficient_clustering.png) |
 |----------------------------------|------------------------------------------------------------------------|
-|        *Figure 1: HAR *          |                      *Figure 2: Coefficient Clustering*                |
+|        *Figure 1: HAR*           |                      *Figure 2: Coefficient Clustering*                |
 
 
 
