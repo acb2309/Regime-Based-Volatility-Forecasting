@@ -232,7 +232,7 @@ We furthermore We implement a dual recursive HAR-VIX framework that jointly fore
 | Coefficient Clustering   |  28.67  |   12.17  |    2     |         5        |
 
 <p align="center">
-  <img src="graphs/Recursive_PostCOVID_Coeff.png" alt="Coefficient Clustered Post-COVID Graph" width="600"/>
+  <img src="graphs/Recursive_PostCovid_Coeff.png" alt="Coefficient Clustered Post-COVID Graph" width="600"/>
 </p>
 
 ## 10-day Forecast Horizon Results
@@ -270,7 +270,7 @@ We furthermore We implement a dual recursive HAR-VIX framework that jointly fore
 | Coefficient Clustering   |  32.02  |   14.38  |    2     |         10        |
 
 <p align="center">
-  <img src="graphs/Recursive_PostCOVID_Coeff_10day.png" alt="Coefficient Clustered Post-COVID Graph" width="600"/>
+  <img src="graphs/Recursive_PostCovid_Coeff_10day.png" alt="Coefficient Clustered Post-COVID Graph" width="600"/>
 </p>
 
 ## Significance
