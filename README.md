@@ -207,6 +207,8 @@ We furthermore We implement a dual recursive HAR-VIX framework that jointly fore
 | Distributional Clustering|  32.49  |  5.50  |    2     |        5         |
 | Coefficient Clustering   |  33.01  |  4.46  |    2     |        5         |
 
+
+
 ### COVID Results
 |      Model               |   MAPE  |    MSE   | Regime # | # Days Forecasted|
 |--------------------------|---------|----------|----------|------------------|
