@@ -159,7 +159,7 @@ Model performance is evaluated across Pre-COVID, COVID, and Post-COVID periods u
 
 <p align="center">
   <img src="graphs/covid_distributional_clustering.png" alt="Distributional Clustering" width="45%" style="vertical-align:top; margin-right:10px;">
-  <img src="graphs/covid_coefficient_based_clustering.png" alt="Coefficient Clustering" width="45%" style="vertical-align:top;">
+  <img src="graphs/Aclustered_predictions.png" alt="Coefficient Clustering" width="45%" style="vertical-align:top;">
 </p>
 
 <p align="center">
