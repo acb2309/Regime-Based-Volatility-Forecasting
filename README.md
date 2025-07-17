@@ -208,7 +208,7 @@ We furthermore We implement a dual recursive HAR-VIX framework that jointly fore
 | Coefficient Clustering   |  33.01  |  4.46  |    2     |        5         |
 
 <p align="center">
-  <img src="graphs/Recursive_PreCovid_Coeff.png" alt="Coefficient Clustered Pre-COVID Graph" width="48"/>
+  <img src="graphs/Recursive_PreCOVID_Coeff.png" alt="Coefficient Clustered Pre-COVID Graph" width="600"/>
 </p>
 
 ### COVID Results
@@ -238,7 +238,7 @@ We furthermore We implement a dual recursive HAR-VIX framework that jointly fore
 | Coefficient Clustering   |  38.10  |  5.50  |    2     |        10         |
 
 <p align="center">
-  <img src="graphs/Recursive_PreCovid_Coeff_10day.png" alt="Coefficient Clustered 10-day Pre-COVID Graph" width="600"/>
+  <img src="graphs/Recursive_PreCOVID_Coeff_10day.png" alt="Coefficient Clustered 10-day Pre-COVID Graph" width="600"/>
 </p>
 
 ### COVID Results
