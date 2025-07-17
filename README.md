@@ -219,6 +219,10 @@ We furthermore We implement a dual recursive HAR-VIX framework that jointly fore
 | Distributional Clustering|  76.01  |   117.2  |    2     |         5        |
 | Coefficient Clustering   |  41.52  |   116.5  |    2     |         5        |
 
+<p align="center">
+  <img src="graphs/Recursive_COVID_Standard_HAR.png" alt="Standard HAR COVID Graph" width="600"/>
+</p>
+
 ### Post-COVID Results
 |      Model               |   MAPE  |    MSE   | Regime # | # Days Forecasted|
 |--------------------------|---------|----------|----------|------------------|
@@ -226,6 +230,10 @@ We furthermore We implement a dual recursive HAR-VIX framework that jointly fore
 | Markov Soft EM           |  27.55  |   12.80  |    2     |         5        |
 | Distributional Clustering|  29.34  |   15.37  |    2     |         5        |
 | Coefficient Clustering   |  28.67  |   12.17  |    2     |         5        |
+
+<p align="center">
+  <img src="graphs/Recursive_PostCOVID_Coeff.png" alt="Coefficient Clustered Post-COVID Graph" width="600"/>
+</p>
 
 ## 10-day Forecast Horizon Results
 
@@ -249,6 +257,10 @@ We furthermore We implement a dual recursive HAR-VIX framework that jointly fore
 | Distributional Clustering|  89.51  |   317.8  |    2     |         10        |
 | Coefficient Clustering   |  55.14  |   391.1  |    2     |         10        |
 
+<p align="center">
+  <img src="graphs/Recursive_COVID_Markov.png" alt="Markov COVID Graph" width="600"/>
+</p>
+
 ### Post-COVID Results
 |      Model               |   MAPE  |    MSE   | Regime # | # Days Forecasted |
 |--------------------------|---------|----------|----------|-------------------|
@@ -256,6 +268,10 @@ We furthermore We implement a dual recursive HAR-VIX framework that jointly fore
 | Markov Soft EM           |  31.41  |   16.04  |    3     |         10        |
 | Distributional Clustering|  32.17  |   18.83  |    2     |         10        |
 | Coefficient Clustering   |  32.02  |   14.38  |    2     |         10        |
+
+<p align="center">
+  <img src="graphs/Recursive_PostCOVID_Coeff_10day.png" alt="Coefficient Clustered Post-COVID Graph" width="600"/>
+</p>
 
 ## Significance
 
