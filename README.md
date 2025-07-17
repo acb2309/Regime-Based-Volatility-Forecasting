@@ -207,7 +207,9 @@ We furthermore We implement a dual recursive HAR-VIX framework that jointly fore
 | Distributional Clustering|  32.49  |  5.50  |    2     |        5         |
 | Coefficient Clustering   |  33.01  |  4.46  |    2     |        5         |
 
-
+<p align="center">
+  <img src="graphs/Recursive_PreCovid_Coeff.png" alt="Coefficient Clustered Pre-COVID Graph" width="600"/>
+</p>
 
 ### COVID Results
 |      Model               |   MAPE  |    MSE   | Regime # | # Days Forecasted|
@@ -234,6 +236,10 @@ We furthermore We implement a dual recursive HAR-VIX framework that jointly fore
 | Markov Soft EM           |  37.04  |  6.15  |    2     |        10         |
 | Distributional Clustering|  34.67  |  6.40  |    2     |        10         |
 | Coefficient Clustering   |  38.10  |  5.50  |    2     |        10         |
+
+<p align="center">
+  <img src="graphs/Recursive_PreCovid_Coeff_10day.png" alt="Coefficient Clustered 10-day Pre-COVID Graph" width="600"/>
+</p>
 
 ### COVID Results
 |      Model               |   MAPE  |    MSE   | Regime # | # Days Forecasted |
