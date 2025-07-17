@@ -194,7 +194,31 @@ Model performance is evaluated across Pre-COVID, COVID, and Post-COVID periods u
 
 
 ## Recursive Forecasting
-We furthermore evaluate all models using rolling-window training every 5 days and recursive multi-step forecasting at 5- and 10-day horizons. Evaluation spans three structural periods—pre-COVID, COVID crisis, and post-COVID recovery—to benchmark model adaptability under structural change. Our recursive forecasting architecture includes a dual volatility regression setup using both realized volatility (RV) and implied volatility (VIX) as complementary targets, highlighting how joint modeling of market expectations and realized outcomes may offer unique predictive advantages.
+We furthermore We implement a dual recursive HAR-VIX framework that jointly forecasts realized volatility (RV) and implied volatility (VIX). In each step, VIX is first predicted using lagged RV and VIX values, and this forecasted VIX is then used to predict RV. The process repeats recursively, allowing both series to evolve together and capture interdependent dynamics over time. We then adapt and apply this approach within each regime-switching framework. Evaluation spans three structural periods—pre-COVID, COVID crisis, and post-COVID recovery—to benchmark model adaptability under structural change. We compare results using a 5-day forecast horizon and a 10-day forecast horizon. Our recursive forecasting architecture highlights how joint modeling of market expectations and realized outcomes may offer unique predictive advantages.
+
+### Pre-COVID Results 
+|      Model               |   MAPE  |   MSE  | Regime # | # Days Forecasted| 
+|--------------------------|---------|--------|----------|------------------|
+| HAR                      |  33.28  |  4.96  |    1     |        5         |
+| Markov Soft EM           |  32.33  |  4.91  |    2     |        5         |
+| Distributional Clustering|  32.49  |  5.50  |    2     |        5         |
+| Coefficient Clustering   |  33.01  |  4.46  |    2     |        5         |
+
+### COVID Results
+|      Model               |   MAPE  |    MSE   | Regime # | # Days Forecasted|
+|--------------------------|---------|----------|----------|------------------|
+| HAR                      |  42.91  |   80.53  |    1     |         5        |
+| Markov Soft EM           |  54.48  |   89.01  |    5     |         5        |
+| Distributional Clustering|  76.01  |   117.2  |    2     |         5        |
+| Coefficient Clustering   |  41.52  |   116.5  |    2     |         5        |
+
+### Post-COVID Results
+|      Model               |   MAPE  |    MSE   | Regime # | # Days Forecasted|
+|--------------------------|---------|----------|----------|------------------|
+| HAR                      |  28.49  |   13.37  |    1     |         5        |
+| Markov Soft EM           |  27.55  |   12.80  |    2     |         5        |
+| Distributional Clustering|  29.34  |   15.37  |    2     |         5        |
+| Coefficient Clustering   |  28.67  |   12.17  |    2     |         5        |
 
 ## Significance
 
