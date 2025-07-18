@@ -273,6 +273,9 @@ We furthermore We implement a dual recursive HAR-VIX framework that jointly fore
   <img src="graphs/Recursive_PostCovid_Coeff_10day.png" alt="Coefficient Clustered Post-COVID Graph" width="600"/>
 </p>
 
+### Analysis 
+For the pre-Covid and post-Covid periods, the Coefficient-based clustering model consistently achieves the lowest MSE acrosss 5-day and 10-day forecasting horizons. The Markov regime-switching model similarly offers slight improvement over the baseline HAR for these time periods. However, during the COVID period, the HAR model significantly outperforms each regime-switching model, suggesting that these models may falter in recursive forecasting under volatile conditions. Soft clustering appears unreliable and overly sensitive to noise, especially in recursive settings. To enhance forecasting accuracy, careful tuning of regime parameters, avoidance of over-clustering, and limiting the recursive forecast horizon may be beneficial.
+
 ## Significance
 
 Our empirical results demonstrate that regime-aware HAR extensions consistently yield lower forecasting errors than the standard HAR model, confirming the value of incorporating time-varying dynamics. Specifically, coefficient-based soft clustering effectively captures gradual shifts and identifies structural breaks in volatility distributions, achieving superior performance before and after the COVID time period. Meanwhile, distributional clustering better captures volatility behavior during the highly volatile COVID-19 time period. Inclusion of the VIX as a forward-looking feature enhances model responsiveness to shifts in market sentiment, thereby refining predictive accuracy.
