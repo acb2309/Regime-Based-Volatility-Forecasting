@@ -232,7 +232,7 @@ Both the single and dual-recursive HAR frameworks are implemented within our reg
 | Dual Coefficient Clustering   |  55.14  |   391.1  |    2     |         5        |
 
 <p align="center">
-  <img src="graphs/recursive_covid_5day" alt="Dual Distributional CLustering 5-day COVID Graph" width="600"/>
+  <img src="graphs/recursive_covid_5day.png" alt="Dual Distributional Clustering 5-day COVID Graph" width="600"/>
 </p>
 
 ### Post-COVID Results
