@@ -208,7 +208,7 @@ We furthermore We implement a dual recursive HAR-VIX framework that jointly fore
 | Coefficient Clustering   |  33.01  |  4.46  |    2     |        5         |
 
 <p align="center">
-  <img src="graphs/Recursive_PreCOVID_Coeff.png" alt="Coefficient Clustered Pre-COVID Graph" width="600"/>
+  <img src="graphs/recursive_pre_covid_5day.png" alt="Coefficient Clustered Pre-COVID Graph" width="600"/>
 </p>
 
 ### COVID Results
@@ -220,7 +220,7 @@ We furthermore We implement a dual recursive HAR-VIX framework that jointly fore
 | Coefficient Clustering   |  41.52  |   116.5  |    2     |         5        |
 
 <p align="center">
-  <img src="graphs/Recursive_COVID_Standard_HAR.png" alt="Standard HAR COVID Graph" width="600"/>
+  <img src="graphs/recursive_covid_5day" alt="Standard HAR COVID Graph" width="600"/>
 </p>
 
 ### Post-COVID Results
@@ -232,7 +232,7 @@ We furthermore We implement a dual recursive HAR-VIX framework that jointly fore
 | Coefficient Clustering   |  28.67  |   12.17  |    2     |         5        |
 
 <p align="center">
-  <img src="graphs/Recursive_PostCovid_Coeff.png" alt="Coefficient Clustered Post-COVID Graph" width="600"/>
+  <img src="graphs/recursive_post_covid_5day.png" alt="Coefficient Clustered Post-COVID Graph" width="600"/>
 </p>
 
 ## 10-day Forecast Horizon Results
@@ -246,7 +246,7 @@ We furthermore We implement a dual recursive HAR-VIX framework that jointly fore
 | Coefficient Clustering   |  38.10  |  5.50  |    2     |        10         |
 
 <p align="center">
-  <img src="graphs/Recursive_PreCOVID_Coeff_10day.png" alt="Coefficient Clustered 10-day Pre-COVID Graph" width="600"/>
+  <img src="graphs/recursive_pre_covid_10day.png" alt="Coefficient Clustered 10-day Pre-COVID Graph" width="600"/>
 </p>
 
 ### COVID Results
@@ -258,7 +258,7 @@ We furthermore We implement a dual recursive HAR-VIX framework that jointly fore
 | Coefficient Clustering   |  55.14  |   391.1  |    2     |         10        |
 
 <p align="center">
-  <img src="graphs/Recursive_COVID_Markov.png" alt="Markov COVID Graph" width="600"/>
+  <img src="graphs/recursive_covid_10day.png" alt="Markov COVID Graph" width="600"/>
 </p>
 
 ### Post-COVID Results
@@ -270,7 +270,7 @@ We furthermore We implement a dual recursive HAR-VIX framework that jointly fore
 | Coefficient Clustering   |  32.02  |   14.38  |    2     |         10        |
 
 <p align="center">
-  <img src="graphs/Recursive_PostCovid_Coeff_10day.png" alt="Coefficient Clustered Post-COVID Graph" width="600"/>
+  <img src="graphs/recursive_post_covid_10day.png" alt="Coefficient Clustered Post-COVID Graph" width="600"/>
 </p>
 
 ### Analysis 
